@@ -12,3 +12,6 @@ Imprima no console o valor gasto de combustível para realizar esta viagem */
 const precoCombustivel = 5.79;
 const kmPorLitros = 12;
 const distanciaEmKm = 1580;
+
+// Calculado a resolução do desafio
+const valorGasto = (precoCombustivel / kmPorLitros) * distanciaEmKm;

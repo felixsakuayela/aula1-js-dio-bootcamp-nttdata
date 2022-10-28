@@ -15,3 +15,6 @@ const distanciaEmKm = 1580;
 
 // Calculado a resolução do desafio
 const valorGasto = (precoCombustivel / kmPorLitros) * distanciaEmKm;
+
+// Imprimindo a resolução
+console.log(valorGasto.toFixed(2));
